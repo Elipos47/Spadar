@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "spadar:r_smithing_template"
+    },
+    "X": {
+      "item": "spadar:r_awakened_ingot"
+    },
+    "Y": {
+      "item": "spadar:r_ingot"
+    }
+  },
+  "pattern": [
+    "Y#Y",
+    "YXY",
+    "YYY"
+  ],
+  "result": {
+    "item": "spadar:r_smithing_template",
+    "count": 2
+  }
+}

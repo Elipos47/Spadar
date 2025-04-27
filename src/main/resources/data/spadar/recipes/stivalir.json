@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "spadar:r_awakened_ingot"
+  },
+  "base": {
+    "item": "spadar:r_boots"
+  },
+  "result": {
+    "item": "spadar:stivalir"
+  },
+  "template": {
+    "item": "spadar:r_smithing_template"
+  }
+}

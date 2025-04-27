@@ -1,0 +1,33 @@
+{
+  "item.spadar.r_sword": "R Sword",
+  "item.spadar.raw_r": "Raw R",
+  "item.spadar.r_ingot": "R ingot",
+
+  "block.spadar.r_block": "R Block",
+  "block.spadar.r_ore": "R Ore",
+
+  "item.spadar.r_smithing_template": "R Smithing Template",
+  "item.spadar.r_pickaxe": "R Pickaxe",
+  "item.spadar.r_shovel": "R Shovel",
+  "item.spadar.r_axe": "R Axe",
+  "item.spadar.r_hoe": "R Hoe",
+  "item.spadar.r_awakened_ingot": "Awakaned R Ingot",
+
+  "item.spadar.r_helmet": "R Helmet",
+  "item.spadar.r_chestplate": "R Chestplate",
+  "item.spadar.r_leggings": "R Leggings",
+  "item.spadar.r_boots": "R Boots",
+
+  "item.spadar.elmettor": "Elmettor",
+  "item.spadar.corazzar": "Corazzar",
+  "item.spadar.gambalir": "Gambalir",
+  "item.spadar.stivalir": "Stivalir",
+
+  "item.spadar.zappar": "ZAPPAR",
+  "item.spadar.picconer": "PICCONER",
+  "item.spadar.asciar": "ASCIAR",
+  "item.spadar.palar": "PALAR",
+  "item.spadar.spadar": "SPADAR",
+
+  "creative_tab.spadar": "Spadar Tab"
+}

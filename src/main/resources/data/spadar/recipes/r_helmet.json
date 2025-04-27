@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "spadar:r_ingot"
+    }
+  },
+  "result": {
+    "item": "spadar:r_helmet"
+  }
+}

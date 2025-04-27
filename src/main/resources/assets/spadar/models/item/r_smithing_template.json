@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "spadar:item/r_smithing_template"
+  }
+}

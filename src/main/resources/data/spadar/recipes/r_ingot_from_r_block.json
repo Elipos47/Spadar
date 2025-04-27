@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "spadar:r_block"
+    }
+  ],
+  "result": {
+    "item": "spadar:r_ingot",
+    "count": 9
+  }
+}

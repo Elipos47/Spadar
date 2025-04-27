@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "r_ingot",
+  "ingredient": {
+    "item": "spadar:r_ore_block"
+  },
+  "result": "spadar:r_ingot"
+}
