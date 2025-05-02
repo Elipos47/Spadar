@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#X#",
+    "X@X",
+    "#X#"
+  ],
+  "key": {
+    "X": {
+      "item": "spadar:r_awakened_ingot"
+    },
+    "#": {
+      "item": "spadar:r_ingot"
+    },
+    "@": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "spadar:r_portal"
+  }
+}

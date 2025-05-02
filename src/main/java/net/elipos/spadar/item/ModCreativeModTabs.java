@@ -19,29 +19,48 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creative_tab.spadar"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.RAW_R.get());
-                        pOutput.accept(ModBlocks.R_ORE.get());
                         pOutput.accept(ModItems.R_INGOT.get());
-                        pOutput.accept(ModBlocks.R_BLOCK.get());
-                        pOutput.accept(ModItems.R_SMITHING_TEMPLATE.get());
                         pOutput.accept(ModItems.R_AWAKENED_INGOT.get());
+
+                        pOutput.accept(ModBlocks.R_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_R_ORE.get());
+                        pOutput.accept(ModBlocks.R_STONE.get());
+                        pOutput.accept(ModBlocks.R_BLOCK.get());
+
+                        pOutput.accept(ModItems.R_SMITHING_TEMPLATE.get());
+
                         pOutput.accept(ModItems.R_SWORD.get());
                         pOutput.accept(ModItems.R_HOE.get());
                         pOutput.accept(ModItems.R_PICKAXE.get());
                         pOutput.accept(ModItems.R_AXE.get());
                         pOutput.accept(ModItems.R_SHOVEL.get());
+
                         pOutput.accept(ModItems.SPADAR.get());
                         pOutput.accept(ModItems.ZAPPAR.get());
                         pOutput.accept(ModItems.PICCONER.get());
                         pOutput.accept(ModItems.ASCIAR.get());
                         pOutput.accept(ModItems.PALAR.get());
+
                         pOutput.accept(ModItems.R_HELMET.get());
                         pOutput.accept(ModItems.R_CHESTPLATE.get());
                         pOutput.accept(ModItems.R_LEGGINGS.get());
                         pOutput.accept(ModItems.R_BOOTS.get());
+
                         pOutput.accept(ModItems.ELMETTOR.get());
                         pOutput.accept(ModItems.CORAZZAR.get());
                         pOutput.accept(ModItems.GAMBALIR.get());
                         pOutput.accept(ModItems.STIVALIR.get());
+
+                        pOutput.accept(ModBlocks.R_LOG.get());
+                        pOutput.accept(ModBlocks.R_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_R_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_R_WOOD.get());
+                        pOutput.accept(ModBlocks.R_PLANKS.get());
+                        pOutput.accept(ModBlocks.R_LEAVES.get());
+                        pOutput.accept(ModBlocks.R_SAPLING.get());
+
+                        pOutput.accept(ModBlocks.R_PORTAL.get());
+
                     })
                     .icon(() -> new ItemStack(ModItems.R_SWORD.get()))
                     .build());

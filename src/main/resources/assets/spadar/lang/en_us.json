@@ -5,6 +5,8 @@
 
   "block.spadar.r_block": "R Block",
   "block.spadar.r_ore": "R Ore",
+  "block.spadar.deepslate_r_ore": "Deepslate R Ore",
+  "block.spadar.r_stone": "R Stone",
 
   "item.spadar.r_smithing_template": "R Smithing Template",
   "item.spadar.r_pickaxe": "R Pickaxe",
@@ -28,6 +30,17 @@
   "item.spadar.asciar": "ASCIAR",
   "item.spadar.palar": "PALAR",
   "item.spadar.spadar": "SPADAR",
+
+  "block.spadar.r_log": "R Log",
+  "block.spadar.r_wood": "R Wood",
+  "block.spadar.stripped_r_log": "Stripped R Log",
+  "block.spadar.stripped_r_wood": "Stripped R Wood",
+  "block.spadar.r_planks": "R Planks",
+  "block.spadar.r_leaves": "R Leaves",
+  "block.spadar.r_sapling": "R Sapling",
+
+  "block.spadar.r_portal": "R portal",
+
 
   "creative_tab.spadar": "Spadar Tab"
 }

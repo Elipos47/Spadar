@@ -3,8 +3,10 @@ package net.elipos.spadar;
 import com.mojang.logging.LogUtils;
 import net.elipos.spadar.attribute.ModAttributes;
 import net.elipos.spadar.block.ModBlocks;
+import net.elipos.spadar.commands.ModCommands;
 import net.elipos.spadar.item.ModCreativeModTabs;
 import net.elipos.spadar.item.ModItems;
+import net.elipos.spadar.worldgen.tree.ModTrunkPlacerTypes;
 import net.minecraft.world.item.*;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.RegisterShadersEvent;
@@ -24,7 +26,7 @@ import java.io.IOException;
 @Mod(Spadar.MODID)
 public class Spadar {
     public static final String MODID = "spadar";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public Spadar() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -40,6 +42,8 @@ public class Spadar {
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
+
+        ModTrunkPlacerTypes.register(modEventBus);
 
 
     }
@@ -67,7 +71,6 @@ public class Spadar {
 
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-            // eventuale setup client
         }
 
         @SubscribeEvent

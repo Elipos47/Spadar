@@ -64,8 +64,6 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.ARMORR, ArmorItem.Type.BOOTS, new Item.Properties()));
 
 
-
-
     public static final RegistryObject<Item> SPADAR = ITEMS.register("spadar",
             () -> new SpadarItem(ModToolTiers.R, 30, 5, new Item.Properties()));
     public static final RegistryObject<Item> ZAPPAR = ITEMS.register("zappar",
