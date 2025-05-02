@@ -1,0 +1,10 @@
+// 1.20.1	2025-05-02T17:29:09.7773865	Registries
+e2951069db53f7ef54ca94ec92ffab41b084fcce data/spadar/dimension/r_dimension.json
+85f5fc01bac0e5be3a69241f122495c872291276 data/spadar/dimension_type/r_dimension_type.json
+aa2961abdc32451ae5e9f486950bb508fec9f8b2 data/spadar/forge/biome_modifier/add_r_ore.json
+41c872b519d386cf07202f645533110b719a3928 data/spadar/worldgen/biome/r_forest.json
+0fb3f6fc8c75fdccfb4dc46e6d9ad75b8848cbac data/spadar/worldgen/configured_feature/rtree.json
+55326e13219ed5edc0793d86399cc986e6f70067 data/spadar/worldgen/configured_feature/r_ore.json
+f015618ed9509deedacb3170fc7712e84fc95f87 data/spadar/worldgen/noise_settings/r_forest.json
+46d287f76b4bdb61b3a1c2b4202e505d77f2c8f4 data/spadar/worldgen/placed_feature/rtree_placed.json
+24c540d2e85b078b7d0641ed8d7742d86560073c data/spadar/worldgen/placed_feature/r_ore_placed.json

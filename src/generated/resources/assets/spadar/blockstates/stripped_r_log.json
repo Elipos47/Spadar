@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "spadar:block/stripped_r_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "spadar:block/stripped_r_log"
+    },
+    "axis=z": {
+      "model": "spadar:block/stripped_r_log_horizontal",
+      "x": 90
+    }
+  }
+}
