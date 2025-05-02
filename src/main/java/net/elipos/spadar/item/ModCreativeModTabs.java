@@ -26,6 +26,9 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.DEEPSLATE_R_ORE.get());
                         pOutput.accept(ModBlocks.R_STONE.get());
                         pOutput.accept(ModBlocks.R_BLOCK.get());
+                        pOutput.accept(ModBlocks.R_GRASS.get());
+                        pOutput.accept(ModBlocks.R_DIRT.get());
+                        pOutput.accept(ModBlocks.R_STONE_ORE.get());
 
                         pOutput.accept(ModItems.R_SMITHING_TEMPLATE.get());
 

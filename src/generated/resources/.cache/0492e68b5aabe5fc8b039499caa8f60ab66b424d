@@ -1,6 +1,8 @@
-// 1.20.1	2025-05-01T00:26:31.2503007	Block States: spadar
+// 1.20.1	2025-05-03T01:27:11.8246158	Block States: spadar
 13d43e45c146dcebaa2e6de7744e6a7bda2a2d50 assets/spadar/blockstates/deepslate_r_ore.json
 d536245b0871e87dd34bbfe53671d9c1a4ddbe7b assets/spadar/blockstates/r_block.json
+7bb091e9642564b72ca6fed7a29a6744e3389ec2 assets/spadar/blockstates/r_dirt.json
+19280c24054d6c0adeb99fb51907dd51df7f1240 assets/spadar/blockstates/r_grass.json
 6573828c86875a4522006d09ff410ad46344b4fa assets/spadar/blockstates/r_leaves.json
 ff7c9c28cf6678e9373b3b56bd06063d4ed38f67 assets/spadar/blockstates/r_log.json
 0e48fb9b6355f43698204200729bf45572add289 assets/spadar/blockstates/r_ore.json
@@ -8,11 +10,14 @@ ff7c9c28cf6678e9373b3b56bd06063d4ed38f67 assets/spadar/blockstates/r_log.json
 182b18293d897c198f19e0f28c2cffc9de4f9ddf assets/spadar/blockstates/r_portal.json
 43b47d8ffc7c80b2742c51d7b269366ee0c86c29 assets/spadar/blockstates/r_sapling.json
 cf100e7dc0b58580b5013051b377643dc80891ef assets/spadar/blockstates/r_stone.json
+56e56950448960756287c40cac2cb9788737ca77 assets/spadar/blockstates/r_stone_ore.json
 895b49f069378229e55defd95c05c968ed4fe77d assets/spadar/blockstates/r_wood.json
 3dc5c18c2e4f27c616fc274ffdb80bd64efc4928 assets/spadar/blockstates/stripped_r_log.json
 4a319708f9356e0c44f6769f3b6d817f5c726f4b assets/spadar/blockstates/stripped_r_wood.json
 a14c259a4b603c893eeac1a0fc3247016ed15047 assets/spadar/models/block/deepslate_r_ore.json
 c0debf46f531078b4544c87ae0d2c8c3c3c6a827 assets/spadar/models/block/r_block.json
+3811da8bbe1c27d3ef2613a426e7bb671722679c assets/spadar/models/block/r_dirt.json
+03050f1a4f404576386d544fc056bc0519b49a5c assets/spadar/models/block/r_grass.json
 77ed4a7979be40bd18fefe820e3296351c689700 assets/spadar/models/block/r_leaves.json
 bd6479c92610251035f6dafc994bd8d18389a113 assets/spadar/models/block/r_log.json
 cde499ed95f933c82f5d36472e0694f201d12bec assets/spadar/models/block/r_log_horizontal.json
@@ -21,6 +26,7 @@ cde499ed95f933c82f5d36472e0694f201d12bec assets/spadar/models/block/r_log_horizo
 b079fd52e3d519954fcac49f3289167a42b57e10 assets/spadar/models/block/r_portal.json
 9e330e0f724df5ac09f0d44486ddb55e9d682aa6 assets/spadar/models/block/r_sapling.json
 5ec0b88f4640395dfd85585ef3695d1b4f136ebc assets/spadar/models/block/r_stone.json
+4d1d1b43613c813957cb858705ea9fedddb04089 assets/spadar/models/block/r_stone_ore.json
 211ab7ec67f09d6dba2f901e4abc068534412e6c assets/spadar/models/block/r_wood.json
 40f1932f5d02036267026d87057cd386656d0415 assets/spadar/models/block/r_wood_horizontal.json
 23d3c903c1385d1d1c57fccfd5446e3770d95a3b assets/spadar/models/block/stripped_r_log.json
@@ -29,12 +35,15 @@ b079fd52e3d519954fcac49f3289167a42b57e10 assets/spadar/models/block/r_portal.jso
 06d0e4a6f4fd0b031ac43ac2c2b59eef74ad5e28 assets/spadar/models/block/stripped_r_wood_horizontal.json
 dc3c909fe9e1da159ce581ce5e9ffc358b92aaac assets/spadar/models/item/deepslate_r_ore.json
 ca11b2acadbca0990b59bd03065b822f9b74b359 assets/spadar/models/item/r_block.json
+4a8dc8ad2327b053e176ff345638384e7d552318 assets/spadar/models/item/r_dirt.json
+0ff1790b15d2ac584baeb9eef0330c558a1825f1 assets/spadar/models/item/r_grass.json
 e7c3a8ce57601a7f11768d511776ae19a2e8b8d4 assets/spadar/models/item/r_leaves.json
 f51917b374c9167118ff505b7b126abb9116bcc4 assets/spadar/models/item/r_log.json
 43f92012b4183eefcd17c99b0dc1787c0db06cb9 assets/spadar/models/item/r_ore.json
 3f8f9af9153b679bae86d5abc2d43fca2d16d5db assets/spadar/models/item/r_planks.json
 b2b57eb1a07e4cec9866e75fd6f1d990a24e329a assets/spadar/models/item/r_portal.json
 dea875b824492912d74a78e57014aba2ab953a1f assets/spadar/models/item/r_stone.json
+48c53faa9684333f13bb8927af3298a983303e55 assets/spadar/models/item/r_stone_ore.json
 58760fb83403ef9cea73dd8c28b706bfaa4c501f assets/spadar/models/item/r_wood.json
 119c9c1b837fef2bbf72f28236b7bcbf7793786a assets/spadar/models/item/stripped_r_log.json
 19f4ef6e2470a0dc42648dd86cc5fac4d4564c27 assets/spadar/models/item/stripped_r_wood.json

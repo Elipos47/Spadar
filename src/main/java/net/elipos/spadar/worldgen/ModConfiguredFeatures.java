@@ -2,6 +2,7 @@ package net.elipos.spadar.worldgen;
 
 import net.elipos.spadar.Spadar;
 import net.elipos.spadar.block.ModBlocks;
+import net.elipos.spadar.util.ModTags;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstapContext;
 import net.minecraft.resources.ResourceKey;
@@ -25,17 +26,21 @@ import java.util.List;
 public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> R_ORE_KEY = registerKey("r_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> RTREE_KEY = registerKey("rtree");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> R_STONE_ORE_KEY = registerKey("r_stone_ore");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceable = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
         RuleTest deepslateReplaceable = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
+        RuleTest rStoneReplaceable = new TagMatchTest(ModTags.Blocks.R_STONE_REPLACEABLE);
 
         List<OreConfiguration.TargetBlockState> overworldRores = List.of(
                 OreConfiguration.target(stoneReplaceable, ModBlocks.R_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceable, ModBlocks.DEEPSLATE_R_ORE.get().defaultBlockState())
         );
 
-        register(context, R_ORE_KEY, Feature.ORE, new OreConfiguration(overworldRores, 2));
+        register(context, R_STONE_ORE_KEY, Feature.ORE, new OreConfiguration(rStoneReplaceable, ModBlocks.R_STONE_ORE.get().defaultBlockState(), 32));
+
+        register(context, R_ORE_KEY, Feature.ORE, new OreConfiguration(overworldRores, 4));
 
         register(context, RTREE_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                 BlockStateProvider.simple(ModBlocks.R_LOG.get()),

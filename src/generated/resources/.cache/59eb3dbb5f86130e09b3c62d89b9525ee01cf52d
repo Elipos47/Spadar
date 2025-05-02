@@ -1,12 +1,16 @@
-// 1.20.1	2025-04-28T22:49:28.9834946	Loot Tables
+// 1.20.1	2025-05-03T01:27:11.8214056	Loot Tables
 856b4fba08e80b70c73d3d843d54d60516415a70 data/spadar/loot_tables/blocks/deepslate_r_ore.json
 2b1de556248f8a1b65e4e567e96458d7c6678952 data/spadar/loot_tables/blocks/r_block.json
+459403dbc6c329fd0710ed372e43d8e89ae32b89 data/spadar/loot_tables/blocks/r_dirt.json
+df1238f8dc8c6db644d2a99a82d308f740efe347 data/spadar/loot_tables/blocks/r_grass.json
 95e3d4893fb6b69d45ca745cb08236d84087be22 data/spadar/loot_tables/blocks/r_leaves.json
 4debf260f361fb4d8f91864da929fe9c3f5e66a4 data/spadar/loot_tables/blocks/r_log.json
 79fcb84e5e6936e9f4b08c14844369571cebfb7b data/spadar/loot_tables/blocks/r_ore.json
 e8cbc3e294438d8dcc3c7eb1b9b3c5074c920a68 data/spadar/loot_tables/blocks/r_planks.json
+98988ee73f602a44f19d2ef8a25a47c66b65f6fc data/spadar/loot_tables/blocks/r_portal.json
 872f0ca014e14fdbe08eb00638ec3ba3643d8811 data/spadar/loot_tables/blocks/r_sapling.json
 6b8afe5c7a1d852ebc1e682c5ea2f9e28655ac9c data/spadar/loot_tables/blocks/r_stone.json
+4505e24198da7fd279b688b33ca8276535d7e79c data/spadar/loot_tables/blocks/r_stone_ore.json
 824863ff1c9dc7b3180d67ca4b31541dd47ed3f5 data/spadar/loot_tables/blocks/r_wood.json
 920b96ca6986b5d38ebf2c2ef2e9b94f824cf471 data/spadar/loot_tables/blocks/stripped_r_log.json
 de08d16d8274f6aad2bb76ef24d3c7781ad561f1 data/spadar/loot_tables/blocks/stripped_r_wood.json

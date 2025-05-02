@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#spadar:r_forest",
+  "features": "spadar:r_stone_ore_placed",
+  "step": "underground_ores"
+}

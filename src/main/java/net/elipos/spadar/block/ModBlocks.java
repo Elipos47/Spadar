@@ -29,12 +29,20 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE)
                     .strength(5f).requiresCorrectToolForDrops(),UniformInt.of(10, 20)));
     public static final RegistryObject<Block> DEEPSLATE_R_ORE = registerBlock("deepslate_r_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE)
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_DIAMOND_ORE)
                     .strength(6f).requiresCorrectToolForDrops(),UniformInt.of(10, 20)));
+    public static final RegistryObject<Block> R_STONE_ORE = registerBlock("r_stone_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE)
+                    .strength(6f).requiresCorrectToolForDrops(),UniformInt.of(50, 60)));
     public static final RegistryObject<Block> R_BLOCK = registerBlock("r_block",
             () -> new Block(Block.Properties.copy(Blocks.DIAMOND_BLOCK)));
     public static final RegistryObject<Block> R_STONE = registerBlock("r_stone",
             () -> new Block(Block.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> R_GRASS = registerBlock("r_grass",
+            () -> new GrassBlock(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> R_DIRT = registerBlock("r_dirt",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
 
     public static final RegistryObject<Block> R_LOG = registerBlock("r_log",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(5f)));
@@ -84,7 +92,7 @@ public class ModBlocks {
             () -> new SaplingBlock(new RTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
     public static final RegistryObject<Block> R_PORTAL = registerBlock("r_portal",
-            () -> new ModPortalBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noLootTable()));
+            () -> new ModPortalBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
 
 
 

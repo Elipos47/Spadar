@@ -24,16 +24,36 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.R_BLOCK.get(),
                         ModBlocks.R_ORE.get(),
                         ModBlocks.R_STONE.get(),
-                        ModBlocks.DEEPSLATE_R_ORE.get());
+                        ModBlocks.DEEPSLATE_R_ORE.get(),
+                        ModBlocks.R_STONE_ORE.get());
+
+        this.tag(BlockTags.MINEABLE_WITH_SHOVEL)
+                .add(ModBlocks.R_GRASS.get(),
+                        ModBlocks.R_DIRT.get());
 
         this.tag(ModTags.Blocks.NEEDS_R_TOOL)
                 .add(ModBlocks.R_STONE.get(),
+                        ModBlocks.STRIPPED_R_LOG.get(),
+                        ModBlocks.STRIPPED_R_WOOD.get(),
+                        ModBlocks.R_LOG.get(),
+                        ModBlocks.R_WOOD.get(),
+                        ModBlocks.R_LEAVES.get(),
+                        ModBlocks.R_SAPLING.get(),
+                        ModBlocks.R_PORTAL.get(),
+                        ModBlocks.R_PLANKS.get(),
+                        ModBlocks.R_GRASS.get(),
+                        ModBlocks.R_DIRT.get(),
                         ModBlocks.R_ORE.get(),
                         ModBlocks.DEEPSLATE_R_ORE.get(),
-                        ModBlocks.R_BLOCK.get());
+                        ModBlocks.R_BLOCK.get(),
+                        ModBlocks.R_STONE_ORE.get());
 
-        this.tag(ModTags.Blocks.R_STONE)
+        this.tag(ModTags.Blocks.R_STONE_REPLACEABLE)
                 .add(ModBlocks.R_STONE.get());
+
+        this.tag(BlockTags.DIRT)
+                .add(ModBlocks.R_GRASS.get(),
+                        ModBlocks.R_DIRT.get());
 
         this.tag(BlockTags.LOGS_THAT_BURN)
                 .add(ModBlocks.R_LOG.get(),

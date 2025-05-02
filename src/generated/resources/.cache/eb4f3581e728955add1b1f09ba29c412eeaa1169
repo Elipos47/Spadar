@@ -1,6 +1,8 @@
-// 1.20.1	2025-04-28T19:37:15.3518997	Tags for minecraft:block mod id spadar
+// 1.20.1	2025-05-03T01:27:11.8234688	Tags for minecraft:block mod id spadar
+90ef7ede3f00e69de3b9adcf284212a4ecf80e68 data/minecraft/tags/blocks/dirt.json
 b22958ffe0599eb773282dbd83b42ea2dc3a7585 data/minecraft/tags/blocks/logs_that_burn.json
-00ceac5d001b892e16b6675f6c9d968ce37e786d data/minecraft/tags/blocks/mineable/pickaxe.json
+ff4fc1f22a747dfb2897ddde99bb4afe1d03720c data/minecraft/tags/blocks/mineable/pickaxe.json
+90ef7ede3f00e69de3b9adcf284212a4ecf80e68 data/minecraft/tags/blocks/mineable/shovel.json
 bd1facde28ef69253b76979b1d024cf3d216c9c1 data/minecraft/tags/blocks/planks.json
-db707a7f7bea23ac8c9bec4fc85219510f456395 data/spadar/tags/blocks/needs_r_tool.json
-35a4714928cef5e6d55f2ad592625fb4ea4fd882 data/spadar/tags/blocks/r_stone.json
+67ae9bcb9e1b71f9dc1b703c7f4b4e46f477041b data/spadar/tags/blocks/needs_r_tool.json
+35a4714928cef5e6d55f2ad592625fb4ea4fd882 data/spadar/tags/blocks/r_stone_replaceable.json

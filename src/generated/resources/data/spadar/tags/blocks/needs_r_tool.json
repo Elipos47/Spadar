@@ -1,8 +1,19 @@
 {
   "values": [
     "spadar:r_stone",
+    "spadar:stripped_r_log",
+    "spadar:stripped_r_wood",
+    "spadar:r_log",
+    "spadar:r_wood",
+    "spadar:r_leaves",
+    "spadar:r_sapling",
+    "spadar:r_portal",
+    "spadar:r_planks",
+    "spadar:r_grass",
+    "spadar:r_dirt",
     "spadar:r_ore",
     "spadar:deepslate_r_ore",
-    "spadar:r_block"
+    "spadar:r_block",
+    "spadar:r_stone_ore"
   ]
 }

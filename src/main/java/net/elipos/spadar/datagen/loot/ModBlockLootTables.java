@@ -27,6 +27,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     protected void generate() {
         this.dropSelf(ModBlocks.R_BLOCK.get());
         this.dropSelf(ModBlocks.R_STONE.get());
+        this.dropSelf(ModBlocks.R_PORTAL.get());
+        this.dropSelf(ModBlocks.R_DIRT.get());
         this.dropSelf(ModBlocks.R_LOG.get());
         this.dropSelf(ModBlocks.R_WOOD.get());
         this.dropSelf(ModBlocks.R_PLANKS.get());
@@ -38,13 +40,18 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 createLeavesDrops(block, ModBlocks.R_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
 
         this.add(ModBlocks.R_ORE.get(),
-                block -> createCopperLikeOreDrops(ModBlocks.R_ORE.get(), ModItems.RAW_R.get()));
+                block -> createDiamondLikeOreDrops(ModBlocks.R_ORE.get(), ModItems.RAW_R.get()));
         this.add(ModBlocks.DEEPSLATE_R_ORE.get(),
-                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_R_ORE.get(), ModItems.RAW_R.get()));
+                block -> createDiamondLikeOreDrops(ModBlocks.DEEPSLATE_R_ORE.get(), ModItems.RAW_R.get()));
+        this.add(ModBlocks.R_STONE_ORE.get(),
+                block -> createDiamondLikeOreDrops(ModBlocks.R_STONE_ORE.get(), ModItems.RAW_R.get()));
+
+        this.add(ModBlocks.R_GRASS.get(),
+                createSingleItemTable(ModBlocks.R_DIRT.get()));
 
     }
 
-    protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {
+    protected LootTable.Builder createDiamondLikeOreDrops(Block pBlock, Item item) {
         return createSilkTouchDispatchTable(pBlock,
                 this.applyExplosionDecay(pBlock,
                         LootItem.lootTableItem(item)

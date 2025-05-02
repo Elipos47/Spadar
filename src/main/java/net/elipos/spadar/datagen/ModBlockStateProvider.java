@@ -9,7 +9,6 @@ import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -23,8 +22,13 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.R_BLOCK);
         blockWithItem(ModBlocks.R_STONE);
 
+        blockWithItem(ModBlocks.R_DIRT);
+
+        grassBlock(ModBlocks.R_GRASS);
+
         blockWithItem(ModBlocks.R_ORE);
         blockWithItem(ModBlocks.DEEPSLATE_R_ORE);
+        blockWithItem(ModBlocks.R_STONE_ORE);
 
         logBlock(((RotatedPillarBlock) ModBlocks.R_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.R_WOOD.get()), blockTexture(ModBlocks.R_LOG.get()), blockTexture(ModBlocks.R_LOG.get()));
@@ -67,4 +71,22 @@ public class ModBlockStateProvider extends BlockStateProvider {
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
     }
+
+    private void grassBlock(RegistryObject<Block> blockRegistryObject) {
+        Block block = blockRegistryObject.get();
+        ResourceLocation blockId = blockRegistryObject.getId();
+
+        ResourceLocation topTexture = new ResourceLocation("minecraft", "block/grass_block_top");
+        ResourceLocation sideTexture = new ResourceLocation("spadar", "block/r_grass_block_side");
+        ResourceLocation bottomTexture = new ResourceLocation("spadar", "block/r_dirt");
+
+        ModelFile model = models().withExistingParent(blockId.getPath(), mcLoc("block/cube_bottom_top"))
+                .texture("top", topTexture)
+                .texture("side", sideTexture)
+                .texture("bottom", bottomTexture);
+
+        simpleBlockWithItem(block, model);
+    }
+
+
 }
